@@ -13,7 +13,7 @@
 @import 'themes/openred/orui_colors_light';
 
 // Global styling
-@import 'global_styling/index';
+@import 'themes/openred/global_styling/index';
 
 // Components
 @import 'components/index';
@@ -21,11 +21,3 @@
 // Packages
 @import '../packages/index';
 
-/* During creation of the new theme, these rules had to be
- * removed from the components. To make sure the theme retains
- * its looks, they are reintroduced here.
- */
-
-.ouiText blockquote {
-  font-family: Georgia, Times, Times New Roman, serif;
-}

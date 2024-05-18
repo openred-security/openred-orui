@@ -1,4 +1,15 @@
 /*
+ * SPDX-License-Identifier: AGPL-3.0-only
+ *
+ * The OpenRed Contributors require contributions made to
+ * this file be licensed under the 	AGPL-3.0-only license or a
+ * compatible open source license.
+ *
+ * Modifications Copyright OpenRed Contributors. See
+ * GitHub history for details.
+ */
+
+/*
  * SPDX-License-Identifier: Apache-2.0
  *
  * The OpenSearch Contributors require contributions made to
@@ -276,7 +287,14 @@ export const OuiBreadcrumbs: FunctionComponent<OuiBreadcrumbsProps> = ({
       'ouiBreadcrumbWall--single': isFirstBreadcrumb && isLastBreadcrumb,
     });
 
-    const wrapper = <div className={breadcrumbWrapperClasses}>{link}</div>;
+    const wrapper = isFirstBreadcrumb ? (
+      <div className={breadcrumbWrapperClasses}>{link}</div>
+    ) : (
+      <div className={breadcrumbWrapperClasses}><svg className="ouiBreadcrumbWall--separator" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path>
+    </svg>{link}</div>
+    );
+
     const wall = isFirstBreadcrumb ? (
       <div className={breadcrumbWallClasses}>{wrapper}</div>
     ) : (

@@ -239,14 +239,14 @@
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 147,
+        "line": 158,
         "column": 6,
-        "index": 4396
+        "index": 4692
       },
       "end": {
-        "line": 149,
+        "line": 160,
         "column": 45,
-        "index": 4506
+        "index": 4802
       }
     },
     "filepath": "src/components/breadcrumbs/breadcrumbs.tsx"
@@ -3634,6 +3634,24 @@
       }
     },
     "filepath": "src/components/selectable/selectable.tsx"
+  },
+  {
+    "token": "ouiSplitButton.screenReaderAnnouncement",
+    "defString": "You are in a selector of {optionsCount} items and must select a single option.\n              Use the up and down keys to navigate or escape to close.",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 315,
+        "column": 10,
+        "index": 7897
+      },
+      "end": {
+        "line": 320,
+        "column": 12,
+        "index": 8205
+      }
+    },
+    "filepath": "src/components/split_button/split_button.tsx"
   },
   {
     "token": "ouiStat.loadingText",

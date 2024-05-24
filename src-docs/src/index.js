@@ -26,7 +26,8 @@ import themeLight from './theme_light.scss';
 import themeDark from './theme_dark.scss';
 import themeNextLight from './theme_next_light.scss';
 import themeNextDark from './theme_next_dark.scss';
-import themeOpenRed from './theme_openred.scss';
+import themeOpenredLight from './theme_openred_light.scss';
+import themeOpenredDark from './theme_openred_dark.scss';
 import { ThemeProvider } from './components/with_theme/theme_context';
 import ScrollToHash from './components/scroll_to_hash';
 import { LinkWrapper } from './views/link_wrapper';
@@ -35,7 +36,8 @@ registerTheme('light', [themeLight]);
 registerTheme('dark', [themeDark]);
 registerTheme('next-light', [themeNextLight]);
 registerTheme('next-dark', [themeNextDark]);
-registerTheme('openred', [themeOpenRed]);
+registerTheme('openred-light', [themeOpenredLight]);
+registerTheme('openred-dark', [themeOpenredDark]);
 
 // Set up app
 

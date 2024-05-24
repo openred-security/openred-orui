@@ -51,8 +51,12 @@ export const OUI_THEMES: OUI_THEME[] = [
     value: 'next-dark',
   },
   {
-    text: 'openred',
-    value: 'openred',
+    text: 'openred light',
+    value: 'openred-light',
+  },
+  {
+    text: 'openred dark',
+    value: 'openred-dark',
   },
 ];
 

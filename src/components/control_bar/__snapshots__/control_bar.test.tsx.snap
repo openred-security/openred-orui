@@ -37,6 +37,21 @@ exports[`OuiControlBar is rendered 1`] = `
       <div
         class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
       >
+        <svg
+          aria-hidden="true"
+          class="ouiBreadcrumbWall--separator"
+          fill="none"
+          viewBox="0 0 6 10"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 9 4-4-4-4"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
         <span
           aria-current="page"
           class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -183,6 +198,21 @@ exports[`OuiControlBar props leftOffset is rendered 1`] = `
                 <div
                   class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    class="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
                   <span
                     aria-current="page"
                     class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -304,6 +334,21 @@ exports[`OuiControlBar props leftOffset is rendered 1`] = `
                 <div
                   className="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    className="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    />
+                  </svg>
                   <OuiInnerText>
                     <span
                       aria-current="page"
@@ -523,6 +568,21 @@ exports[`OuiControlBar props maxHeight is rendered 1`] = `
                 <div
                   class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    class="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
                   <span
                     aria-current="page"
                     class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -644,6 +704,21 @@ exports[`OuiControlBar props maxHeight is rendered 1`] = `
                 <div
                   className="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    className="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    />
+                  </svg>
                   <OuiInnerText>
                     <span
                       aria-current="page"
@@ -862,6 +937,21 @@ exports[`OuiControlBar props mobile is rendered 1`] = `
                 <div
                   class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    class="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
                   <span
                     aria-current="page"
                     class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -983,6 +1073,21 @@ exports[`OuiControlBar props mobile is rendered 1`] = `
                 <div
                   className="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    className="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    />
+                  </svg>
                   <OuiInnerText>
                     <span
                       aria-current="page"
@@ -1226,6 +1331,21 @@ exports[`OuiControlBar props position is rendered 1`] = `
             <div
               className="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
             >
+              <svg
+                aria-hidden="true"
+                className="ouiBreadcrumbWall--separator"
+                fill="none"
+                viewBox="0 0 6 10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m1 9 4-4-4-4"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
+              </svg>
               <OuiInnerText>
                 <span
                   aria-current="page"
@@ -1429,6 +1549,21 @@ exports[`OuiControlBar props rightOffset is rendered 1`] = `
                 <div
                   class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    class="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
                   <span
                     aria-current="page"
                     class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -1550,6 +1685,21 @@ exports[`OuiControlBar props rightOffset is rendered 1`] = `
                 <div
                   className="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    className="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    />
+                  </svg>
                   <OuiInnerText>
                     <span
                       aria-current="page"
@@ -1768,6 +1918,21 @@ exports[`OuiControlBar props showContent is rendered 1`] = `
                 <div
                   class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    class="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
                   <span
                     aria-current="page"
                     class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -1894,6 +2059,21 @@ exports[`OuiControlBar props showContent is rendered 1`] = `
                 <div
                   className="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    className="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    />
+                  </svg>
                   <OuiInnerText>
                     <span
                       aria-current="page"
@@ -2117,6 +2297,21 @@ exports[`OuiControlBar props size is rendered 1`] = `
                 <div
                   class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    class="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
                   <span
                     aria-current="page"
                     class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -2238,6 +2433,21 @@ exports[`OuiControlBar props size is rendered 1`] = `
                 <div
                   className="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
                 >
+                  <svg
+                    aria-hidden="true"
+                    className="ouiBreadcrumbWall--separator"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m1 9 4-4-4-4"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    />
+                  </svg>
                   <OuiInnerText>
                     <span
                       aria-current="page"

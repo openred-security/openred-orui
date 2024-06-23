@@ -25,6 +25,21 @@ exports[`OuiBreadcrumbs is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -58,6 +73,21 @@ exports[`OuiBreadcrumbs is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <button
       class="ouiLink ouiLink--subdued ouiBreadcrumb"
       type="button"
@@ -68,6 +98,21 @@ exports[`OuiBreadcrumbs is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--truncate"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <a
       class="ouiLink ouiLink--subdued ouiBreadcrumb ouiBreadcrumb--truncate"
       href="#"
@@ -79,6 +124,21 @@ exports[`OuiBreadcrumbs is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="page"
       class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -113,6 +173,21 @@ exports[`OuiBreadcrumbs props max doesn't break when max exceeds the number of b
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -123,6 +198,21 @@ exports[`OuiBreadcrumbs props max doesn't break when max exceeds the number of b
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -133,6 +223,21 @@ exports[`OuiBreadcrumbs props max doesn't break when max exceeds the number of b
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--truncate"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb ouiBreadcrumb--truncate"
@@ -143,6 +248,21 @@ exports[`OuiBreadcrumbs props max doesn't break when max exceeds the number of b
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -153,6 +273,21 @@ exports[`OuiBreadcrumbs props max doesn't break when max exceeds the number of b
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <button
       class="ouiLink ouiLink--subdued ouiBreadcrumb"
       type="button"
@@ -163,6 +298,21 @@ exports[`OuiBreadcrumbs props max doesn't break when max exceeds the number of b
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--truncate"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <a
       class="ouiLink ouiLink--subdued ouiBreadcrumb ouiBreadcrumb--truncate"
       href="#"
@@ -174,6 +324,21 @@ exports[`OuiBreadcrumbs props max doesn't break when max exceeds the number of b
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="page"
       class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -215,6 +380,21 @@ exports[`OuiBreadcrumbs props max renders 1 item 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="page"
       class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -249,6 +429,21 @@ exports[`OuiBreadcrumbs props max renders all items with null 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -259,6 +454,21 @@ exports[`OuiBreadcrumbs props max renders all items with null 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -269,6 +479,21 @@ exports[`OuiBreadcrumbs props max renders all items with null 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--truncate"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb ouiBreadcrumb--truncate"
@@ -279,6 +504,21 @@ exports[`OuiBreadcrumbs props max renders all items with null 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -289,6 +529,21 @@ exports[`OuiBreadcrumbs props max renders all items with null 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <button
       class="ouiLink ouiLink--subdued ouiBreadcrumb"
       type="button"
@@ -299,6 +554,21 @@ exports[`OuiBreadcrumbs props max renders all items with null 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--truncate"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <a
       class="ouiLink ouiLink--subdued ouiBreadcrumb ouiBreadcrumb--truncate"
       href="#"
@@ -310,6 +580,21 @@ exports[`OuiBreadcrumbs props max renders all items with null 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="page"
       class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -344,6 +629,21 @@ exports[`OuiBreadcrumbs props responsive is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -377,6 +677,21 @@ exports[`OuiBreadcrumbs props responsive is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <button
       class="ouiLink ouiLink--subdued ouiBreadcrumb"
       type="button"
@@ -387,6 +702,21 @@ exports[`OuiBreadcrumbs props responsive is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--truncate"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <a
       class="ouiLink ouiLink--subdued ouiBreadcrumb ouiBreadcrumb--truncate"
       href="#"
@@ -398,6 +728,21 @@ exports[`OuiBreadcrumbs props responsive is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="page"
       class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -432,6 +777,21 @@ exports[`OuiBreadcrumbs props responsive is rendered as false 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -465,6 +825,21 @@ exports[`OuiBreadcrumbs props responsive is rendered as false 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <button
       class="ouiLink ouiLink--subdued ouiBreadcrumb"
       type="button"
@@ -475,6 +850,21 @@ exports[`OuiBreadcrumbs props responsive is rendered as false 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--truncate"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <a
       class="ouiLink ouiLink--subdued ouiBreadcrumb ouiBreadcrumb--truncate"
       href="#"
@@ -486,6 +876,21 @@ exports[`OuiBreadcrumbs props responsive is rendered as false 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="page"
       class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -527,6 +932,21 @@ exports[`OuiBreadcrumbs props responsive is rendered with custom breakpoints 1`]
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="page"
       class="ouiBreadcrumb ouiBreadcrumb--last"
@@ -561,6 +981,21 @@ exports[`OuiBreadcrumbs props truncate as false is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="false"
       class="ouiBreadcrumb"
@@ -594,6 +1029,21 @@ exports[`OuiBreadcrumbs props truncate as false is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <button
       class="ouiLink ouiLink--subdued ouiBreadcrumb"
       type="button"
@@ -604,6 +1054,21 @@ exports[`OuiBreadcrumbs props truncate as false is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--truncate"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <a
       class="ouiLink ouiLink--subdued ouiBreadcrumb ouiBreadcrumb--truncate"
       href="#"
@@ -615,6 +1080,21 @@ exports[`OuiBreadcrumbs props truncate as false is rendered 1`] = `
   <div
     class="ouiBreadcrumbWrapper ouiBreadcrumbWrapper--last"
   >
+    <svg
+      aria-hidden="true"
+      class="ouiBreadcrumbWall--separator"
+      fill="none"
+      viewBox="0 0 6 10"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 9 4-4-4-4"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
     <span
       aria-current="page"
       class="ouiBreadcrumb ouiBreadcrumb--last"

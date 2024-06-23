@@ -25,7 +25,7 @@
  *    but make sure the whole breadcrumb set doesn't add space below itself
  */
 
- .ouiBreadcrumbs {
+.ouiBreadcrumbs {
   @include ouiFontSizeS;
   margin-bottom: -$ouiSizeXS; /* 1 */
   display: flex;
@@ -155,7 +155,7 @@
   width: .75rem;
   height: .75rem;
   margin-left: .25rem;
-  color: rgb(156, 163, 175);
+  color: $ouiColorMediumShade;
   margin-right: .25rem;
   margin-top: 4px;
 }

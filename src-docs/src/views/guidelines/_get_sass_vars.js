@@ -29,8 +29,8 @@ export const getSassVars = (theme) => {
       palette = darkColors;
       break;
     case 'openred-light':
-        palette = openredLightColors;
-        break;
+      palette = openredLightColors;
+      break;
     case 'openred-dark':
       palette = openredDarkColors;
       break;

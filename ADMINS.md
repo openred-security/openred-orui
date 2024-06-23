@@ -14,9 +14,6 @@ This document explains who the admins are (see below), what they do in this repo
 
 | Admin              | GitHub ID                               | Affiliation |
 | ------------------ | --------------------------------------- | ----------- |
-| Charlotte Henkle   | [CEHENKLE](https://github.com/CEHENKLE) | Amazon      |
-| Daniel Doubrovkine | [dblock](https://github.com/dblock)     | Amazon      |
-| Henri Yandell      | [hyandell](https://github.com/hyandell) | Amazon      |
 
 ## Admin Responsibilities
 

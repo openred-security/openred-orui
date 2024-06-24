@@ -47,7 +47,7 @@ jobs:
 
   build:
     name: Build on ubuntu-latest
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, ubuntu-latest]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -79,7 +79,7 @@ jobs:
 
   build-docs:
     name: Build Docs on ubuntu-latest
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, ubuntu-latest]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -108,7 +108,7 @@ jobs:
 
   osd-unit:
     name: OSD Jest test (ciGroup${{ matrix.group }})
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, ubuntu-latest]
     needs: build
     strategy:
       fail-fast: false
@@ -118,7 +118,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: opensearch-project/OpenSearch-Dashboards
+          repository: openred-security/openred-console
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -158,13 +158,13 @@ jobs:
 
   osd-integration:
     name: OSD Integration test
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, ubuntu-latest]
     needs: build
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: opensearch-project/OpenSearch-Dashboards
+          repository: openred-security/openred-console
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -207,12 +207,12 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: ubuntu-latest
+          - os: [self-hosted, ubuntu-latest]
             name: Linux x64
             ext: tar.gz
             suffix: linux-x64
             script: build-platform --linux --skip-os-packages
-          - os: ubuntu-latest
+          - os: [self-hosted, ubuntu-latest, ARM64]
             name: Linux ARM64
             ext: tar.gz
             suffix: linux-arm64
@@ -223,7 +223,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          repository: opensearch-project/OpenSearch-Dashboards
+          repository: openred-security/openred-console
 
       - name: Setup Node
         uses: actions/setup-node@v3

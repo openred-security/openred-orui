@@ -31,7 +31,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           registry-url: 'https://registry.npmjs.org'
-          cache: 'yarn'
 
       - name: Setup Yarn
         run: |
@@ -89,7 +88,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           registry-url: 'https://registry.npmjs.org'
-          cache: 'yarn'
 
       - name: Setup Yarn
         run: |

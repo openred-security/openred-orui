@@ -39,9 +39,12 @@ jobs:
       - name: Generate build
         run: |
           yarn build
-          yarn pack --filename oui.tar.gz
-          mkdir oui && mv oui.tar.gz oui/oui.tar.gz
-          tar -cvf artifacts.tar.gz oui
+          yarn pack --filename orui.tar.gz
+          mkdir orui && mv orui.tar.gz orui/orui.tar.gz
+          tar -cvf artifacts.tar.gz orui
+      - run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Release
         uses: softprops/action-gh-release@v1
         with:

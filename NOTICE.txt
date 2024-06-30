@@ -1,3 +1,6 @@
+openred UI
+Copyright 2024 openred Contributors
+This product includes software, including OUI source code, developed by OpenSearch (http://www.opensearch.org).
 OpenSearch UI
 Copyright 2021 OpenSearch Contributors
 This product includes software, including EUI source code, developed by Elasticsearch (http://www.elastic.co).

@@ -133,14 +133,14 @@ async function compileScssFile(
   );
 
   /* OUI -> EUI Aliases */
-  const declarationMatcher = /^declare\s+module\s+(['"]@opensearch-project\/oui.*?['"])\s*\{/gms;
+  const declarationMatcher = /^declare\s+module\s+(['"]@openred-security\/orui.*?['"])\s*\{/gms;
   let match;
   const declarations = [];
 
   while ((match = declarationMatcher.exec(extractedVarTypes_)) !== null) {
     declarations.push(
       `declare module ${match[1].replace(
-        '@opensearch-project/oui',
+        '@openred-security/orui',
         '@elastic/eui'
       )} {\n` +
         `  import _ from ${match[1]};\n` +

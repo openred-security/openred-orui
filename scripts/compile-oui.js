@@ -161,7 +161,7 @@ function euiBuildTimeAliasTypeDef(file) {
   console.log('Back-porting typedef for EUI aliases');
 
   const content = fs.readFileSync(file, 'utf8');
-  const declarationMatcher = /^declare\s+module\s+(['"]@opensearch-project\/oui(?!\/src\/eui_components).*?['"])\s*\{/gms;
+  const declarationMatcher = /^declare\s+module\s+(['"]@openred-security\/oui(?!\/src\/eui_components).*?['"])\s*\{/gms;
   let match;
   const declarations = new Set();
 
@@ -173,7 +173,7 @@ function euiBuildTimeAliasTypeDef(file) {
   for (const declaration of declarations) {
     reExportStatements.push(
       `declare module ${declaration.replace(
-        '@opensearch-project/oui',
+        '@openred-security/orui',
         '@elastic/eui'
       )} {\n  export * from ${declaration};\n` + '}'
     );

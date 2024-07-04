@@ -161,7 +161,7 @@ function euiBuildTimeAliasTypeDef(file) {
   console.log('Back-porting typedef for EUI aliases');
 
   const content = fs.readFileSync(file, 'utf8');
-  const declarationMatcher = /^declare\s+module\s+(['"]@openred-security\/oui(?!\/src\/eui_components).*?['"])\s*\{/gms;
+  const declarationMatcher = /^declare\s+module\s+(['"]@openred-security\/orui(?!\/src\/eui_components).*?['"])\s*\{/gms;
   let match;
   const declarations = new Set();
 
@@ -322,13 +322,13 @@ function compileBundle() {
     baseDir: path.resolve(__dirname, '..', 'src/test/'),
     files: ['index.ts'],
     resolveModuleId({ currentModuleId }) {
-      return `@opensearch-project/oui/lib/test${
+      return `@openred-security/orui/lib/test${
         currentModuleId !== 'index' ? `/${currentModuleId}` : ''
       }`;
     },
     resolveModuleImport({ currentModuleId, importedModuleId }) {
       if (currentModuleId === 'index') {
-        return `@opensearch-project/oui/lib/test/${importedModuleId.replace(
+        return `@openred-security/orui/lib/test/${importedModuleId.replace(
           './',
           ''
         )}`;
@@ -342,13 +342,13 @@ function compileBundle() {
     baseDir: path.resolve(__dirname, '..', 'src/test/'),
     files: ['index.ts'],
     resolveModuleId({ currentModuleId }) {
-      return `@opensearch-project/oui/es/test${
+      return `@openred-security/orui/es/test${
         currentModuleId !== 'index' ? `/${currentModuleId}` : ''
       }`;
     },
     resolveModuleImport({ currentModuleId, importedModuleId }) {
       if (currentModuleId === 'index') {
-        return `@opensearch-project/oui/es/test/${importedModuleId.replace(
+        return `@openred-security/orui/es/test/${importedModuleId.replace(
           './',
           ''
         )}`;

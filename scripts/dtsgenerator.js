@@ -36,7 +36,7 @@ function hasParentIndex(pathToFile) {
 }
 
 const generator = dtsGenerator({
-  prefix: '@opensearch-project/oui',
+  prefix: '@openred-security/orui',
   project: baseDir,
   out: 'oui.d.ts',
   exclude: [
@@ -58,17 +58,17 @@ const generator = dtsGenerator({
       /* End of Aliases */
       !hasParentIndex(path.resolve(baseDir, params.currentModuleId))
     ) {
-      // this module is exporting from an `index(.d)?.ts` file, declare its exports straight to @opensearch-project/oui module
-      return '@opensearch-project/oui';
+      // this module is exporting from an `index(.d)?.ts` file, declare its exports straight to @openred-security/orui module
+      return '@openred-security/orui';
     } else {
-      // otherwise export as the module's path relative to the @opensearch-project/oui namespace
+      // otherwise export as the module's path relative to the @openred-security/orui namespace
       if (params.currentModuleId.endsWith('/index')) {
         return path.join(
-          '@opensearch-project/oui',
+          '@openred-security/orui',
           path.dirname(params.currentModuleId)
         );
       } else {
-        return path.join('@opensearch-project/oui', params.currentModuleId);
+        return path.join('@openred-security/orui', params.currentModuleId);
       }
     }
   },
@@ -83,7 +83,7 @@ const generator = dtsGenerator({
 
     if (isRelativeImport) {
       // if importing from an `index` file (directly or targeting a directory with an index),
-      // then if there is no parent index file this should import from @opensearch-project/oui
+      // then if there is no parent index file this should import from @openred-security/orui
       const importPathTarget = resolve.sync(params.importedModuleId, {
         basedir: importFromBaseDir,
         extensions: ['.ts', '.tsx', '.d.ts'],
@@ -93,12 +93,12 @@ const generator = dtsGenerator({
       const isModuleIndex = isIndexFile && !hasParentIndex(importPathTarget);
 
       if (isModuleIndex) {
-        // importing an `index` file, in `resolveModuleId` above we change those modules to '@opensearch-project/oui'
-        return '@opensearch-project/oui';
+        // importing an `index` file, in `resolveModuleId` above we change those modules to '@openred-security/orui'
+        return '@openred-security/orui';
       } else {
-        // importing from a non-index TS source file, keep the import path but re-scope it to '@opensearch-project/oui' namespace
+        // importing from a non-index TS source file, keep the import path but re-scope it to '@openred-security/orui' namespace
         return path.join(
-          '@opensearch-project/oui',
+          '@openred-security/orui',
           path.dirname(params.currentModuleId),
           params.importedModuleId
         );
@@ -111,8 +111,8 @@ const generator = dtsGenerator({
 
 // NOTE: once OUI is all converted to typescript this madness can be deleted forever
 // 1. strip any `/// <reference` lines from the generated oui.d.ts
-// 2. replace any import("src/...") declarations to import("@opensearch-project/oui/src/...")
-// 3. replace any import("./...") declarations to import("@opensearch-project/oui/src/...)
+// 2. replace any import("src/...") declarations to import("@openred-security/orui/src/...")
+// 3. replace any import("./...") declarations to import("@openred-security/orui/src/...)
 // 4. generate & add OuiTokenObject
 generator.then(() => {
   const defsFilePath = path.resolve(baseDir, 'oui.d.ts');
@@ -125,7 +125,7 @@ generator.then(() => {
       .replace(/\/\/\/\W+<reference.*/g, '') // 1.
       .replace(
         /import\("src\/(.*?)"\)/g,
-        'import("@opensearch-project/oui/src/$1")'
+        'import("@openred-security/orui/src/$1")'
       ) // 2.
       .replace(
         // start 3.
@@ -145,9 +145,9 @@ generator.then(() => {
             (importStatement, importPath) => {
               let target = path.join(path.dirname(moduleName), importPath);
 
-              // if the target resolves to an orphaned index.ts file, remap to '@opensearch-project/oui'
+              // if the target resolves to an orphaned index.ts file, remap to '@openred-security/orui'
               const filePath = target.replace(
-                '@opensearch-project/oui',
+                '@openred-security/orui',
                 baseDir
               );
               const filePathTs = `${filePath}.ts`;
@@ -160,7 +160,7 @@ generator.then(() => {
                 fs.existsSync(filePathResolvedToIndex) && // and it resolves to an index.ts
                 hasParentIndex(filePathResolvedToIndex) === false // does not get exported at a higher level
               ) {
-                target = '@opensearch-project/oui';
+                target = '@openred-security/orui';
               }
 
               return `import ("${target}")`;
@@ -194,7 +194,7 @@ function buildOuiTokensObject() {
     { i18ndefs: [], tokens: new Set() }
   );
   return `
-declare module '@opensearch-project/oui' {
+declare module '@openred-security/orui' {
   export type OuiTokensObject = {
     ${i18ndefs.map(({ token }) => `"${token}": any;`).join('\n  ')}
   }
@@ -216,7 +216,7 @@ function buildEuiTokensObject() {
   );
   const o2eMapper = { o: 'e', O: 'E' };
   return `
-declare module '@opensearch-project/oui' {
+declare module '@openred-security/orui' {
   export type EuiTokensObject = {
     ${i18ndefs
       .map(

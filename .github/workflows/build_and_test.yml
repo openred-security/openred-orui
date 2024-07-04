@@ -1,10 +1,6 @@
 name: Build and test
 
 on:
-  push:
-    branches: ['**', '!backport/**', '!dependabot/**', '!whitesource-remediate/**']
-    paths-ignore:
-      - '**/*.md'
   pull_request:
     branches: ['**']
     paths-ignore:

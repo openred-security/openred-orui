@@ -1,10 +1,6 @@
 name: Build and test
 
 on:
-  push:
-    branches: ['**', '!backport/**', '!dependabot/**', '!whitesource-remediate/**']
-    paths-ignore:
-      - '**/*.md'
   pull_request:
     branches: ['**']
     paths-ignore:
@@ -21,7 +17,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -31,7 +27,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           registry-url: 'https://registry.npmjs.org'
-          cache: 'yarn'
 
       - name: Setup Yarn
         run: |
@@ -47,7 +42,7 @@ jobs:
 
   build:
     name: Build on ubuntu-latest
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -57,7 +52,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           registry-url: 'https://registry.npmjs.org'
-          cache: 'yarn'
 
       - name: Setup Yarn
         run: |
@@ -79,7 +73,7 @@ jobs:
 
   build-docs:
     name: Build Docs on ubuntu-latest
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -89,7 +83,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           registry-url: 'https://registry.npmjs.org'
-          cache: 'yarn'
 
       - name: Setup Yarn
         run: |
@@ -108,7 +101,7 @@ jobs:
 
   osd-unit:
     name: OSD Jest test (ciGroup${{ matrix.group }})
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest]
     needs: build
     strategy:
       fail-fast: false
@@ -118,7 +111,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: opensearch-project/OpenSearch-Dashboards
+          repository: openred-security/openred-console
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -158,13 +151,13 @@ jobs:
 
   osd-integration:
     name: OSD Integration test
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest]
     needs: build
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: opensearch-project/OpenSearch-Dashboards
+          repository: openred-security/openred-console
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -223,7 +216,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          repository: opensearch-project/OpenSearch-Dashboards
+          repository: openred-security/openred-console
 
       - name: Setup Node
         uses: actions/setup-node@v3

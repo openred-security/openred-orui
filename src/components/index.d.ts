@@ -28,9 +28,9 @@
  * under the License.
  */
 
-declare module '@opensearch-project/oui' {
+declare module '@openred-security/orui' {
   // @ts-ignore path only exists at build time
-  export * from '@opensearch-project/oui/src/components/common'; // eslint-disable-line import/no-unresolved
+  export * from '@openred-security/orui/src/components/common'; // eslint-disable-line import/no-unresolved
   // @ts-ignore path only exists at build time
-  export * from '@opensearch-project/oui/src/components/date_picker/react-datepicker'; // eslint-disable-line import/no-unresolved
+  export * from '@openred-security/orui/src/components/date_picker/react-datepicker'; // eslint-disable-line import/no-unresolved
 }

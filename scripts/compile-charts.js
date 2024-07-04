@@ -47,11 +47,11 @@ function compileChartsBundle() {
     baseDir: path.resolve(__dirname, '..', 'src/themes/charts/'),
     files: ['themes.ts'],
     resolveModuleId() {
-      return '@opensearch-project/oui/dist/oui_charts_theme';
+      return '@openred-security/orui/dist/oui_charts_theme';
     },
     resolveModuleImport(params) {
       if (params.importedModuleId === '../../components/common') {
-        return '@opensearch-project/oui/src/components/common';
+        return '@openred-security/orui/src/components/common';
       }
       return null;
     },

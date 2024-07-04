@@ -78,7 +78,7 @@ Maintaining up-to-date dependencies on third party projects reduces the risk of 
 
 ### Manage Roadmap
 
-Ensure the repo highlights features that should be elevated to the project roadmap. Be clear about the feature’s status, priority, target version, and whether or not it should be elevated to the roadmap. Any feature that you want highlighted on the openred Roadmap should be tagged with "roadmap".
+Ensure the repo highlights features that should be elevated to the project roadmap. Be clear about the feature’s status, priority, target version, and whether or not it should be elevated to the roadmap. Any feature that you want highlighted on the OpenSearch Roadmap should be tagged with "roadmap". The OpenSearch [project-meta maintainers](https://github.com/opensearch-project/project-meta/blob/main/MAINTAINERS.md) will highlight features tagged "roadmap" on the project wide [OpenSearch Roadmap](https://github.com/orgs/opensearch-project/projects/1).
 
 ### Add Continuous Integration Checks
 
@@ -95,6 +95,10 @@ Make frequent project releases to the community.
 ### Promote Other Maintainers
 
 Assist, add, and remove [MAINTAINERS](MAINTAINERS.md). Exercise good judgement, and propose high quality contributors to become co-maintainers. See [Becoming a Maintainer](#becoming-a-maintainer) for more information.
+
+### Describe the Repo
+
+Make sure the repo has a well-written, accurate, and complete description. See [opensearch-project/.github#38](https://github.com/opensearch-project/.github/issues/38) for some helpful tips to describe your repo.
 
 ## Becoming a Maintainer
 
@@ -126,7 +130,7 @@ The repo admin adjusts the new maintainer’s permissions accordingly, and merge
 
 ## Removing a Maintainer
 
-Removing a maintainer is a disruptive action that the community of maintainers should not undertake lightly. There are several reasons a maintainer will be removed from the project, such as violating the [code of conduct](CODE_OF_CONDUCT.md), or taking other actions that negatively impact the project.
+Removing a maintainer is a disruptive action that the community of maintainers should not undertake lightly. There are several reasons a maintainer will be removed from the project, such as violating the [code of conduct](https://github.com/opensearch-project/.github/blob/main/CODE_OF_CONDUCT.md), or taking other actions that negatively impact the project.
 
 ### Moving On
 

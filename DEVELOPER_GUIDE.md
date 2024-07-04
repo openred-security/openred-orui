@@ -1,4 +1,7 @@
-<h1 align="center">ORUI Developer Guide</h1>
+<p align="center"><img src="https://opensearch.org/assets/brand/SVG/Logo/opensearch_dashboards_logo_darkmode.svg" height="64px"/></p>
+<h1 align="center">OUI Developer Guide</h1>
+
+This guide applies to all development within the OpenSearch Dashboards project and is recommended for the development of all OpenSearch Dashboards plugins.
 
 - [Running locally](#running-locally)
   - [Node](#node)

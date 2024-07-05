@@ -25,7 +25,7 @@ jobs:
           minimum-approvals: 1
           issue-title: 'Release ORUI: ${{ steps.get_data.outputs.version }}'
           issue-body: "Please approve or deny the release of ORUI. **VERSION**: ${{ steps.get_data.outputs.version }} **TAG**: ${{ github.ref_name }}  **COMMIT**: ${{ github.sha }}"
-          exclude-workflow-initiator-as-approver: true
+          exclude-workflow-initiator-as-approver: false
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
